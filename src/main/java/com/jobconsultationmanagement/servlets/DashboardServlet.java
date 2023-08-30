@@ -54,7 +54,7 @@ public class DashboardServlet extends HttpServlet {
         List<User> users = getUsers(); // Fetch user data from the database
         request.setAttribute("users", users);
         System.out.println(users);
-        request.getRequestDispatcher("/WEB-INF/dashboard.jsp").forward(request, response);
+        request.getRequestDispatcher("/dashboard.jsp").forward(request, response);
     }
      //Method to fetch user data from the database
 //    private List<User> getUsers() {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Registration</title>
-    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/login-style.css">
+    <link rel="stylesheet" href="css/login-style.css">
 </head>
 <body>
     <div class="container mt-5">
