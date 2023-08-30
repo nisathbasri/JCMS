@@ -53,4 +53,18 @@ public class User {
             }
         }
     }
+    
+        // Method to register a new user
+    public boolean register(Connection connection) throws SQLException {
+        String query = "INSERT INTO users (username, password, role) VALUES (?, ?, ?)";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+            preparedStatement.setString(1, this.username);
+            preparedStatement.setString(2, this.password);
+            preparedStatement.setString(3, this.role);
+
+            int rowsAffected = preparedStatement.executeUpdate();
+            return rowsAffected > 0;
+        }
+    }
+    
 }

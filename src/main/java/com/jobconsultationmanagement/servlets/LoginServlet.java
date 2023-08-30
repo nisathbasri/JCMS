@@ -25,7 +25,7 @@ public class LoginServlet extends HttpServlet {
             throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-
+        
         // Establish a database connection
         DBConnectionUtil dbConnection = new DBConnectionUtil();
         Connection connection = dbConnection.getConnection();

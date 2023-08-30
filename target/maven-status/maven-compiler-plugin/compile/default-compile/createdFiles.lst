@@ -1,8 +1,8 @@
 com\jobconsultationmanagement\resources\JakartaEE8Resource.class
 com\jobconsultationmanagement\DBConnectionUtil.class
 com\jobconsultationmanagement\servlets\LoginServlet.class
+com\jobconsultationmanagement\servlets\RegisterServlet.class
 com\jobconsultationmanagement\servlets\LogoutServlet.class
 com\jobconsultationmanagement\JakartaRestConfiguration.class
-com\jobconsultationmanagement\DatabaseUtil.class
 com\jobconsultationmanagement\model\User.class
 com\jobconsultationmanagement\servlets\DashboardServlet.class
