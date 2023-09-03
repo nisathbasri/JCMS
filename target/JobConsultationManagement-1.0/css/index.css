@@ -1,3 +1,4 @@
+/* Add your custom styles here */
 .container {
     max-width: 500px;
     margin-top: 20%;
@@ -13,7 +14,8 @@
 
 .card-title {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 12%;
     text-align: center;
 }
 
@@ -33,11 +35,35 @@
     background-color: #007bff;
     border: none;
     padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-decoration: none;
     color: #fff;
+    align-content: center;
     border-radius: 3px;
     cursor: pointer;
 }
 
 .btn-primary:hover {
     background-color: #0056b3;
+}
+
+.btn-secondary {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3;
+}
+
+.button{
+    align-content: center;
 }

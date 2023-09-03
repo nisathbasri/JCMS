@@ -1,8 +1,12 @@
-com\jobconsultationmanagement\resources\JakartaEE8Resource.class
-com\jobconsultationmanagement\DBConnectionUtil.class
 com\jobconsultationmanagement\servlets\LoginServlet.class
 com\jobconsultationmanagement\servlets\RegisterServlet.class
 com\jobconsultationmanagement\servlets\LogoutServlet.class
 com\jobconsultationmanagement\JakartaRestConfiguration.class
+com\jobconsultationmanagement\servlets\ScheduleAppointmentServlet.class
 com\jobconsultationmanagement\model\User.class
+com\jobconsultationmanagement\resources\JakartaEE8Resource.class
+com\jobconsultationmanagement\servlets\ViewAppointmentsServlet.class
+com\jobconsultationmanagement\DBConnectionUtil.class
+com\jobconsultationmanagement\model\Consultant.class
 com\jobconsultationmanagement\servlets\DashboardServlet.class
+com\jobconsultationmanagement\model\Appointment.class
